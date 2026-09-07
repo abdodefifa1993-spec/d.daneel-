@@ -1,0 +1,6 @@
+{
+  "name": "DANIEL - شركة دانيال للنقل الذكي",
+  "description": "منصة دانيال للنقل الذكي (DANIEL) - نظام نقل متكامل يضم تطبيق الراكب، تطبيق Daniel Captain، ولوحة Daniel Control Center مع تتبع حي ومحرك ملاحة وتوجيه ذكي.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

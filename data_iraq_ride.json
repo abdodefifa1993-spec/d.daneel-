@@ -1,0 +1,696 @@
+{
+  "users": [
+    {
+      "id": "usr_1788766576181_550",
+      "phone": "+9647701234567",
+      "name": "علي الكرخي",
+      "role": "passenger",
+      "cityId": "baghdad",
+      "walletBalanceIQD": 25000,
+      "rating": 5,
+      "totalTrips": 0,
+      "createdAt": "2026-09-07T07:36:16.181Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "drv-1",
+      "userId": "usr-drv-1",
+      "name": "كابتن مصطفى السعدي",
+      "phone": "+964 770 123 4567",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.95,
+      "totalTrips": 1840,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.316,
+        "lng": 44.358
+      },
+      "heading": 45,
+      "speed": 35,
+      "accuracy": 5,
+      "car": {
+        "make": "هيونداي",
+        "model": "إلنترا 2023",
+        "year": 2023,
+        "color": "فضي معدني",
+        "plateNumber": "بغداد 63921 خصوصي",
+        "tier": "economy"
+      },
+      "walletBalanceIQD": 185000,
+      "todayEarningsIQD": 52000,
+      "acceptanceRate": 98,
+      "joinedDate": "2023-04-12",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-2",
+      "userId": "usr-drv-2",
+      "name": "كابتن حيدر الكرخي",
+      "phone": "+964 780 987 6543",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.88,
+      "totalTrips": 2410,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.305,
+        "lng": 44.422
+      },
+      "heading": 120,
+      "speed": 25,
+      "accuracy": 4,
+      "car": {
+        "make": "تويوتا",
+        "model": "كامري VIP 2024",
+        "year": 2024,
+        "color": "أسود ملكي",
+        "plateNumber": "بغداد 88120 خصوصي",
+        "tier": "comfort_vip"
+      },
+      "walletBalanceIQD": 420000,
+      "todayEarningsIQD": 94000,
+      "acceptanceRate": 96,
+      "joinedDate": "2022-11-05",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-3",
+      "userId": "usr-drv-3",
+      "name": "كابتن رند التميمي (كابتن سيدة)",
+      "phone": "+964 771 555 4433",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.97,
+      "totalTrips": 1120,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.326,
+        "lng": 44.346
+      },
+      "heading": 210,
+      "speed": 40,
+      "accuracy": 3,
+      "car": {
+        "make": "كيا",
+        "model": "سيراتو ناعم",
+        "year": 2023,
+        "color": "فضي ميتاليك",
+        "plateNumber": "بغداد 67431 خصوصي",
+        "tier": "women_taxi"
+      },
+      "walletBalanceIQD": 194000,
+      "todayEarningsIQD": 48000,
+      "acceptanceRate": 99,
+      "joinedDate": "2023-08-01",
+      "status": "APPROVED",
+      "gender": "female",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-iq-101",
+      "userId": "usr-drv-101",
+      "name": "كابتن كرار علي الزبيدي",
+      "phone": "+964 770 123 4567",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.95,
+      "totalTrips": 1420,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.3285,
+        "lng": 44.4098
+      },
+      "heading": 90,
+      "speed": 35,
+      "accuracy": 5,
+      "car": {
+        "make": "تويوتا",
+        "model": "كامري هايبرد",
+        "year": 2022,
+        "color": "أبيض لؤلؤي",
+        "plateNumber": "بغداد 44921 خصوصي",
+        "tier": "economy"
+      },
+      "walletBalanceIQD": 148500,
+      "todayEarningsIQD": 52000,
+      "acceptanceRate": 98,
+      "joinedDate": "2023-01-15",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-iq-102",
+      "userId": "usr-drv-102",
+      "name": "كابتن عمر مهدي السامرائي",
+      "phone": "+964 780 987 6543",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.88,
+      "totalTrips": 890,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.315,
+        "lng": 44.382
+      },
+      "heading": 180,
+      "speed": 25,
+      "accuracy": 4,
+      "car": {
+        "make": "هيونداي",
+        "model": "سوناتا VIP",
+        "year": 2023,
+        "color": "أسود ملكي",
+        "plateNumber": "بغداد 88120 خصوصي",
+        "tier": "comfort_vip"
+      },
+      "walletBalanceIQD": 210000,
+      "todayEarningsIQD": 68000,
+      "acceptanceRate": 96,
+      "joinedDate": "2023-04-10",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-iq-103",
+      "userId": "usr-drv-103",
+      "name": "كابتن ريم حيدر الحسني",
+      "phone": "+964 771 555 7788",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.98,
+      "totalTrips": 640,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.339,
+        "lng": 44.375
+      },
+      "heading": 45,
+      "speed": 40,
+      "accuracy": 3,
+      "car": {
+        "make": "كيا",
+        "model": "سيراتو ناعم",
+        "year": 2023,
+        "color": "فضي ميتاليك",
+        "plateNumber": "بغداد 67431 خصوصي",
+        "tier": "women_taxi"
+      },
+      "walletBalanceIQD": 94000,
+      "todayEarningsIQD": 38000,
+      "acceptanceRate": 99,
+      "joinedDate": "2023-08-01",
+      "status": "APPROVED",
+      "gender": "female",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-iq-104",
+      "userId": "usr-drv-104",
+      "name": "كابتن آراس كاميران الكردي",
+      "phone": "+964 750 444 3322",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.92,
+      "totalTrips": 1120,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "erbil",
+      "currentLocation": {
+        "lat": 36.192,
+        "lng": 44.011
+      },
+      "heading": 270,
+      "speed": 50,
+      "accuracy": 5,
+      "car": {
+        "make": "تويوتا",
+        "model": "راف فور SUV",
+        "year": 2023,
+        "color": "أبيض صدفي",
+        "plateNumber": "أربيل 12894 أجرة",
+        "tier": "comfort_vip"
+      },
+      "walletBalanceIQD": 310000,
+      "todayEarningsIQD": 85000,
+      "acceptanceRate": 97,
+      "joinedDate": "2022-11-20",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    },
+    {
+      "id": "drv-iq-105",
+      "userId": "usr-drv-105",
+      "name": "كابتن حيدر جاسم البصراوي",
+      "phone": "+964 781 222 9900",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.91,
+      "totalTrips": 980,
+      "isOnline": true,
+      "isBusy": false,
+      "cityId": "basra",
+      "currentLocation": {
+        "lat": 30.51,
+        "lng": 47.832
+      },
+      "heading": 120,
+      "speed": 30,
+      "accuracy": 6,
+      "car": {
+        "make": "تويوتا",
+        "model": "كورولا أجرة",
+        "year": 2021,
+        "color": "أصفر تكسي",
+        "plateNumber": "البصرة 94103 أجرة",
+        "tier": "economy"
+      },
+      "walletBalanceIQD": 120000,
+      "todayEarningsIQD": 45000,
+      "acceptanceRate": 95,
+      "joinedDate": "2023-03-01",
+      "status": "APPROVED",
+      "gender": "male",
+      "updatedAt": "2026-09-07T06:43:58.331Z"
+    }
+  ],
+  "deliveryDrivers": [
+    {
+      "id": "courier-1",
+      "userId": "usr_courier_01",
+      "name": "علي المفرجي (دليفري سريع)",
+      "phone": "+964 771 555 1122",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.93,
+      "totalDeliveries": 412,
+      "isOnline": true,
+      "isBusy": false,
+      "vehicleType": "motorcycle",
+      "plateNumber": "بغداد 7821 دليفري",
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.3152,
+        "lng": 44.3661
+      },
+      "heading": 90,
+      "speed": 25,
+      "walletBalanceIQD": 64000,
+      "todayEarningsIQD": 28000,
+      "acceptanceRate": 98,
+      "status": "APPROVED",
+      "joinedDate": "2025-02-10",
+      "updatedAt": "2026-09-07T07:36:13.421Z"
+    },
+    {
+      "id": "courier-2",
+      "userId": "usr_courier_02",
+      "name": "عمر السعدي (مندوب دانيال)",
+      "phone": "+964 780 444 3322",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.88,
+      "totalDeliveries": 285,
+      "isOnline": true,
+      "isBusy": false,
+      "vehicleType": "motorcycle",
+      "plateNumber": "بغداد 1459 دليفري",
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.3005,
+        "lng": 44.425
+      },
+      "heading": 180,
+      "speed": 20,
+      "walletBalanceIQD": 42000,
+      "todayEarningsIQD": 18000,
+      "acceptanceRate": 96,
+      "status": "APPROVED",
+      "joinedDate": "2025-04-12",
+      "updatedAt": "2026-09-07T07:36:13.421Z"
+    },
+    {
+      "id": "courier-3",
+      "userId": "usr_courier_03",
+      "name": "يوسف الدليمي (كابتن طرود)",
+      "phone": "+964 772 333 8811",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "rating": 4.95,
+      "totalDeliveries": 530,
+      "isOnline": true,
+      "isBusy": false,
+      "vehicleType": "car",
+      "plateNumber": "بغداد 88204 خصوصي",
+      "cityId": "baghdad",
+      "currentLocation": {
+        "lat": 33.275,
+        "lng": 44.382
+      },
+      "heading": 45,
+      "speed": 35,
+      "walletBalanceIQD": 95000,
+      "todayEarningsIQD": 35000,
+      "acceptanceRate": 99,
+      "status": "APPROVED",
+      "joinedDate": "2024-11-20",
+      "updatedAt": "2026-09-07T07:36:13.421Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "nameAr": "مطعم صمد - المنصور",
+      "category": "restaurant",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.3125,
+        "lng": 44.3562
+      },
+      "address": "حي المنصور، شارع 14 رمضان، بغداد",
+      "rating": 4.9,
+      "totalOrders": 3420,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=150&auto=format&fit=crop&q=80",
+      "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 10000,
+      "estimatedPrepMins": 25,
+      "items": [
+        {
+          "id": "item-101",
+          "nameAr": "قوزي لحم عراقي فاخر مع أرز عنبر",
+          "priceIQD": 18000,
+          "category": "أطباق رئيسية",
+          "isAvailable": true
+        },
+        {
+          "id": "item-102",
+          "nameAr": "كباب لحم مشوي على الفحم (نفر)",
+          "priceIQD": 12000,
+          "category": "مشاوي",
+          "isAvailable": true
+        },
+        {
+          "id": "item-103",
+          "nameAr": "دجاج مسكوف عراقي كامل",
+          "priceIQD": 15000,
+          "category": "مشاوي",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "store-2",
+      "nameAr": "أسواق الهدى المركزية - الكرادة",
+      "category": "market",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.305,
+        "lng": 44.421
+      },
+      "address": "شارع الكرادة داخل، مجاور مجمع الليث، بغداد",
+      "rating": 4.8,
+      "totalOrders": 1850,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=150&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 5000,
+      "estimatedPrepMins": 15,
+      "items": [
+        {
+          "id": "item-201",
+          "nameAr": "سلة فواكه طازجة مشكلة (3 كغم)",
+          "priceIQD": 7500,
+          "category": "خضار وفواكه",
+          "isAvailable": true
+        },
+        {
+          "id": "item-202",
+          "nameAr": "حليب كيكو كامل الدسم (كرتون)",
+          "priceIQD": 14000,
+          "category": "ألبان",
+          "isAvailable": true
+        },
+        {
+          "id": "item-203",
+          "nameAr": "مياه معدنية الواحة (باقة 12 قنينة)",
+          "priceIQD": 3000,
+          "category": "مشروبات",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "store-3",
+      "nameAr": "صيدلية النقاء المركزية - الحارثية",
+      "category": "pharmacy",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.318,
+        "lng": 44.372
+      },
+      "address": "الحارثية، شارع الكندي، بغداد",
+      "rating": 4.95,
+      "totalOrders": 940,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1586015555751-63c2998a44b9?w=150&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 5000,
+      "estimatedPrepMins": 10,
+      "items": [
+        {
+          "id": "item-301",
+          "nameAr": "حقيبة إسعافات أولية متكاملة",
+          "priceIQD": 15000,
+          "category": "مستلزمات",
+          "isAvailable": true
+        },
+        {
+          "id": "item-302",
+          "nameAr": "فيتامين C فوار (علبة 20 قرص)",
+          "priceIQD": 4500,
+          "category": "مكملات",
+          "isAvailable": true
+        },
+        {
+          "id": "item-303",
+          "nameAr": "جهاز قياس ضغط إلكتروني معتمد",
+          "priceIQD": 32000,
+          "category": "أجهزة طبية",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "store-4",
+      "nameAr": "حلويات الخاصكي الشهيرة - الكاظمية",
+      "category": "sweets",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.381,
+        "lng": 44.341
+      },
+      "address": "شارع المحيط، الكاظمية، بغداد",
+      "rating": 4.98,
+      "totalOrders": 4200,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=150&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 8000,
+      "estimatedPrepMins": 15,
+      "items": [
+        {
+          "id": "item-401",
+          "nameAr": "بقلاوة بغدادية بالجوز والدهن الحر (1 كغم)",
+          "priceIQD": 16000,
+          "category": "حلويات شرقية",
+          "isAvailable": true
+        },
+        {
+          "id": "item-402",
+          "nameAr": "حلاوة دهين النجف الفاخرة بالأعشاب",
+          "priceIQD": 10000,
+          "category": "دهين",
+          "isAvailable": true
+        },
+        {
+          "id": "item-403",
+          "nameAr": "زنود الست قشطة طازجة (صحن كبير)",
+          "priceIQD": 12000,
+          "category": "حلويات",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "store-5",
+      "nameAr": "مثلجات الرواد والفستق الحلبي - المنصور",
+      "category": "ice_cream",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.31,
+        "lng": 44.361
+      },
+      "address": "تقاطع الرواد، المنصور، بغداد",
+      "rating": 4.85,
+      "totalOrders": 2100,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=150&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 5000,
+      "estimatedPrepMins": 10,
+      "items": [
+        {
+          "id": "item-501",
+          "nameAr": "دوندرمة عراقية طبيعية بالفستق الحلبي (1 كغم)",
+          "priceIQD": 12000,
+          "category": "مثلجات",
+          "isAvailable": true
+        },
+        {
+          "id": "item-502",
+          "nameAr": "كأس آيس كريم فواكه مشكلة مع مكسرات",
+          "priceIQD": 4000,
+          "category": "كؤوس",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "store-6",
+      "nameAr": "متجر القرطاسية والمكتبات الحديثة - باب المعظم",
+      "category": "local_store",
+      "cityId": "baghdad",
+      "location": {
+        "lat": 33.355,
+        "lng": 44.385
+      },
+      "address": "ساحة الميدان، باب المعظم، بغداد",
+      "rating": 4.75,
+      "totalOrders": 650,
+      "isOpen": true,
+      "logo": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=150&auto=format&fit=crop&q=80",
+      "minimumOrderIQD": 4000,
+      "estimatedPrepMins": 10,
+      "items": [
+        {
+          "id": "item-601",
+          "nameAr": "حقيبة مدرسية متينة مع مقلمة وأدوات",
+          "priceIQD": 22000,
+          "category": "حقائب",
+          "isAvailable": true
+        },
+        {
+          "id": "item-602",
+          "nameAr": "دفاتر جامعية 200 صفحة (حزمة 5 دفاتر)",
+          "priceIQD": 8000,
+          "category": "دفاتر",
+          "isAvailable": true
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1788766587369-925",
+      "customerId": "usr_pass_01",
+      "customerName": "علي الكرخي",
+      "customerPhone": "+9647701234567",
+      "storeId": "store-1",
+      "storeName": "مطعم صمد - المنصور",
+      "storeCategory": "restaurant",
+      "items": [
+        {
+          "id": "item-101",
+          "nameAr": "قوزي لحم عراقي فاخر",
+          "qty": 1,
+          "priceIQD": 18000
+        }
+      ],
+      "subtotalIQD": 18000,
+      "deliveryFeeIQD": 3000,
+      "totalAmountIQD": 21000,
+      "paymentMethod": "cash",
+      "paymentStatus": "pending",
+      "deliveryAddress": {
+        "name": "حي الجامعة، بغداد",
+        "lat": 33.315,
+        "lng": 44.366
+      },
+      "status": "PENDING",
+      "candidateCourierIds": [
+        "courier-1",
+        "courier-3",
+        "courier-2"
+      ],
+      "rejectedCourierIds": [],
+      "createdAt": "2026-09-07T07:36:27.369Z",
+      "updatedAt": "2026-09-07T07:36:27.369Z",
+      "currentCandidateCourierId": "courier-1",
+      "dispatchExpiresAt": 1788766602369
+    }
+  ],
+  "rides": [],
+  "transactions": [],
+  "pricingRules": [
+    {
+      "cityId": "baghdad",
+      "tierId": "economy",
+      "tierNameAr": "اقتصادي (Economy)",
+      "baseFareIQD": 1500,
+      "perKmFareIQD": 700,
+      "perMinFareIQD": 100,
+      "minimumFareIQD": 3000,
+      "waitingPerMinIQD": 150,
+      "cancellationFeeIQD": 1500,
+      "platformCommissionPercent": 15
+    },
+    {
+      "cityId": "baghdad",
+      "tierId": "comfort_vip",
+      "tierNameAr": "كومفورت VIP (Comfort)",
+      "baseFareIQD": 3000,
+      "perKmFareIQD": 1100,
+      "perMinFareIQD": 200,
+      "minimumFareIQD": 5000,
+      "waitingPerMinIQD": 250,
+      "cancellationFeeIQD": 2500,
+      "platformCommissionPercent": 15
+    },
+    {
+      "cityId": "baghdad",
+      "tierId": "women_taxi",
+      "tierNameAr": "تكسي النواعم (للنساء فقط)",
+      "baseFareIQD": 2000,
+      "perKmFareIQD": 800,
+      "perMinFareIQD": 120,
+      "minimumFareIQD": 3500,
+      "waitingPerMinIQD": 150,
+      "cancellationFeeIQD": 1500,
+      "platformCommissionPercent": 12
+    },
+    {
+      "cityId": "baghdad",
+      "tierId": "family",
+      "tierNameAr": "عائلي كبير 7 راكب (Family XL)",
+      "baseFareIQD": 3500,
+      "perKmFareIQD": 1250,
+      "perMinFareIQD": 250,
+      "minimumFareIQD": 6000,
+      "waitingPerMinIQD": 300,
+      "cancellationFeeIQD": 3000,
+      "platformCommissionPercent": 15
+    }
+  ],
+  "supportTickets": [],
+  "platformStats": {
+    "totalRevenueIQD": 0,
+    "totalCommissionIQD": 0,
+    "tripsCount": 0
+  }
+}
